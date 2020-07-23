@@ -1,16 +1,4 @@
 image: .gitpod.Dockerfile
 ports:
-  - port: 6080
-    onOpen: open-preview
-ports:
-  - port: 1080
-    onOpen: open-preview
-ports:
-  - port: 445
-    onOpen: open-preview
-ports:
-  - port: 22
-    onOpen: open-preview
-ports:
-  - port: 666
+  - port: 1-20000
     onOpen: open-preview
