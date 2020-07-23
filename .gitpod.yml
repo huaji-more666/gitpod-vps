@@ -1,4 +1,4 @@
 image: gitpod/workspace-full-vnc
 ports:
-  - port: 6080
+  - port: 6080,10086,443,22,3389,2001,80,8800,777
     onOpen: open-preview
