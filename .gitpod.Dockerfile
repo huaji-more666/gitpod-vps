@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
 USER root
-sudo su
+RUN sudo su
