@@ -1,2 +1,7 @@
 FROM gitpod/workspace-full
-RUN sudo su
+sudo su
+apt update
+apt y install screen
+apt y install xfce4
+apt y install firefox
+apt install tightvncserver
